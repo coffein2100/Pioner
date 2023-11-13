@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pioner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Oswald:wght@500;700&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet/less" type="text/css" href="Less/styles.less">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet/less" type="text/css" href="CSS/uikit.css">
+    <!-- UIkit JS -->
+    <script src="Js/uikit.js"></script>
+    <script src="Js/uikit-icons.js"></script>
+
+    <script src="Js/Less.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="headwrap">
+            <ul class="head__navigator">
+                <li class="head__navigatorlogo">
+                    <img src="Img/logo.svg" alt="логотип" width="180" height="38">    
+                </li>
+                <li>
+                    <ul class="head__OS">
+                        <li><p class="headtextos">По вопросам и предложениям</p></li>
+                        <li  class="headtextmailos"><a href="mailto:testmail@mail.com">testmail@mail.com</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="head__Consult">
+                        <li><p class="headtextconsult">Для консультаций</p></li>
+                        <li  class="headtexttel"><a href="tel:+7495*******">+7 (495)***-**-**</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="head__navigatorbottom">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">О предприятии</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Продукция</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Поддержка</a></li>
+                <li><a href="#">География поставок</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Перезвоните мне</a></li>
+            </ul>
+        </header>
+        <section class="Present">
+            <div class="Present__headtextwrap">
+                    <h1 class="Present__headtext">Российский завод силовых машин</h1>               
+                <p class="Present__text">научно-производственное предприятие, занимающееся разработкой и производством силовых машин.</p>
+                <div class="Present__img">
+                </div>
+            </div>
+        </section>
+        <section class="About">
+            <h2 class="About__headtext">О предприятии</h2>
+            <div class="uk-column-1-2 uk-column-divider">
+                <p class="About__text">За 20 лет развития в структуре завода сформирован мощный производственный потенциал, научно-технический центр, испытательная лаборатория, современная база, учебный центр и широкая сеть региональных и международных представительств в Российской Федерации, Республике Беларусь, Узбекистане и Казахстане.</p>
+                <p class="About__text">Ежегодно НПП «ПИОНЕР» реализует несколько проектов по модернизации серийных и разработке новых приборов, призванные в наибольшей степени удовлетворять возрастающие требования наших заказчиков.</p>       
+                <p class="About__text">В номенклатуре выпускаемой НПП «ПИОНЕР» продукции найдется все, что необходимо для успешного решения задачи автоматизации технологических процессов на любом предприятии. Все средства измерения производства «ПИОНЕР» внесены в Государственный реестр СИ и имеют необходимые разрешительные документы.</p>
+            </div>
+            <div class="About__slider uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="left: true">
+                <ul class="uk-slider-items uk-grid">
+                    <li class="uk-width-1-2">
+                        <div class="uk-panel">
+                            <img src="Img/workman.png" width="580" height="280" alt="Рабочий">
+                            <div class="uk-position-left uk-panel"></div>
+                        </div>
+                    </li>
+                    <li class="uk-width-1-2">
+                        <div class="uk-panel">
+                            <img src="Img/carlos-aranda.png" width="580" height="280" alt="Конвеер">
+                            <div class="uk-position-center uk-panel"></div>
+                        </div>
+                    </li>
+                </ul>
+                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
+                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
+            </div>
+        </section>
+        <section class="Production">
+            <h2 class="Production__headtext">Продукция</h2>
+            <div class="uk-child-width-1-3@m " uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img class="Production__image" src="Img/signalizator urovnya.png" width="200" height="194" alt="Сигнализатор уровня">
+                        </div>
+                        <div class="uk-card-body">
+                            <p class="Production__cardhead">Сигнализатор уровня</p>
+                            <a href="#" class="Production__link">Подробнее<span uk-icon="chevron-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img class="Production__image" src="Img/title-aero 1.png" width="200" height="194" alt="Датчики давления">
+                        </div>
+                        <div class="uk-card-body">
+                            <p class="Production__cardhead">Датчики давления</p>
+                            <a href="#" class="Production__link">Подробнее<span uk-icon="chevron-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img class="Production__image" src="Img/kamaz1 1.png" width="200" height="194" alt="ПИД-регуляторы">
+                        </div>
+                        <div class="uk-card-body">
+                            <p class="Production__cardhead">ПИД-регуляторы</p>
+                            <a href="#" class="Production__link">Подробнее<span uk-icon="chevron-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img class="Production__image" src="Img/turbo 1.png" width="200px" height="194px" alt="Калибратор давления">
+                        </div>
+                        <div class="uk-card-body">
+                            <p class="Production__cardhead">Калибратор давления</p>
+                            <a href="#" class="Production__link">Подробнее<span uk-icon="chevron-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img class="Production__image" src="Img/main-slide-power 1.png" width="200px" height="194px" alt="Корректор расхода газа">
+                        </div>
+                        <div class="uk-card-body">
+                            <p class="Production__cardhead">Корректор расхода газа</p>
+                            <a href="#" class="Production__link">Подробнее<span uk-icon="chevron-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img class="Production__image" src="Img/engine 1.png" width="200px" height="194px" alt="Манометры">
+                        </div>
+                        <div class="uk-card-body">
+                            <p class="Production__cardhead">Манометры</p>
+                            <a href="#" class="Production__link">Подробнее<span uk-icon="chevron-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="Representative">
+            <h2 class="Representative__headtext">Представительства</h2>
+            <img class="Representative__image" src="Img/map.png" width="1180px" height="715px" alt="Карта">
+        </section>
+        <section class="News">
+            <h2 class="News__headtext">Новости</h2>
+            <div class="uk-child-width-1-3@m " uk-grid>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img class="News__image" src="Img/firstnews.jpg" width="380px" height="251px" alt="НПП «ПИОНЕР» подтвердило свои компетенции в области консультирования и изготовления…">
+                        </div>
+                        <div class="News__card">
+                            <p class="News__cardhead">НПП «ПИОНЕР» подтвердило свои компетенции в области консультирования и изготовления…</p>
+                            <div class="News__cardbottom">
+                                <a href="#" class="News__link">Читать далее</a>
+                                <span class="News_publicdate">20.07.2020</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img class="News__image" src="Img/secondnews.jpg" width="380px" height="251px" alt="Поздравляем коллектив регионального представительства «ПИОНЕР» с праздником!">
+                        </div>
+                        <div class="News__card">
+                            <p class="News__cardhead">Поздравляем коллектив регионального представительства «ПИОНЕР» с праздником!</p>
+                            <div class="News__cardbottom">
+                                <a href="#" class="News__link">Читать далее</a>
+                                <span class="News_publicdate">18.07.2020</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img class="News__image" src="Img/thirstnews.jpg" width="380px" height="251px" alt="Перенос сроков проведения запланированных работ в 2020 году">
+                        </div>
+                        <div class="News__card">
+                            <p class="News__cardhead">Перенос сроков проведения запланированных работ в 2020 году</p>
+                            <div class="News__cardbottom">
+                                <a href="#" class="News__link">Читать далее</a>
+                                <span class="News_publicdate">20.06.2020</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="Footer">
+        <div class="container">
+            <div class="Footer_wrap">
+                <div class="Footer__logobox">
+                    <img class="Footer__image" src="Img/logo_bottom.svg" width="180px" height="38px" alt="логотип">
+                </div>
+                <div class="Footer__list">
+                    <ul class="Footer__nav">
+                        <li class="Footer__navitem"><a href="#">Главная</a></li>
+                        <li class="Footer__navitem"><a href="#">О предприятии</a></li>
+                        <li class="Footer__navitem"><a href="#">Новости</a></li>
+                        <li class="Footer__navitem"><a href="#">Продукция</a></li>
+                        <li class="Footer__navitem"><a href="#">Услуги</a></li>
+                    </ul>
+                    <ul class="Footer__nav">
+                        <li class="Footer__navitem"><a href="#">Поддержка</a></li>
+                        <li class="Footer__navitem"><a href="#">География поставок</a></li>
+                        <li class="Footer__navitem"><a href="#">Контакты</a></li>
+                    </ul>
+                    <ul class="Footer__nav">
+                        <li class="Footer__navitem"><a href="#">Файлы</a></li>
+                        <li class="Footer__navitem"><a href="#">Поддержка</a></li>
+                        <li class="Footer__navitem"><a href="#">Политика конфеденциальности</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
