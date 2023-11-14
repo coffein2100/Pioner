@@ -11,10 +11,18 @@
     margin-bottom: 32px;
 }
 .Production__image{
-    margin-top: 32px;
-    margin-left: 30%;
-    width: 130px;
-    height: 130px;
+    @media (min-width: @tablet-width) {
+        margin-top: 10px;
+        margin-left: 10%;
+        width: 130px;
+        height: 130px;
+      }
+    @media (min-width: @descktop-width) {
+        margin-top: 32px;
+        margin-left: 30%;
+        width: 130px;
+        height: 130px;
+    }
 }
 .Production__cardhead{
     color: #333;
